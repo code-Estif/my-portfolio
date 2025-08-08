@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>code-Estif • Frontend Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">code-Estif</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <nav class="nav" id="main-nav">
+        <ul class="nav-list">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-controls">
+        <a class="btn ghost" href="https://github.com/code-Estif" target="_blank" rel="noopener">GitHub</a>
+        <button id="theme-toggle" class="btn icon" title="Toggle theme">🌓</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero section reveal">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1>Hi — I’m <span class="accent">Estif.</span></h1>
+          <p class="tagline">Frontend Developer • <strong>CSS Master</strong> • Ethiopia</p>
+          <p class="typing" id="typing"></p>
+          <div class="hero-actions">
+            <a class="btn" href="#projects">See Projects</a>
+            <a class="btn ghost" href="#contact">Contact</a>
+          </div>
+          <ul class="micro-info">
+            <li>Focused on pixel-perfect UI & responsive design</li>
+            <li>Email: <a href="mailto:legendestif@gmail.com">legendestif@gmail.com</a></li>
+          </ul>
+        </div>
+
+        <div class="hero-right">
+          <div class="profile-card">
+            <img src="download.png" alt="code-Estif profile" class="profile-img">
+            <div class="profile-badge">
+              <h3>Frontend Developer</h3>
+              <p>CSS • SCSS • HTML • Git</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about reveal">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div>
+            <p>I'm a high-school student from Ethiopia learning modern frontend development. I focus on HTML, CSS, SCSS, and Git — building pixel perfect, responsive UIs and practicing Frontend Mentor challenges.</p>
+            <p>I love CSS animations, layouts, and making interfaces that feel smooth and professional.</p>
+          </div>
+          <div class="cta">
+            <p><strong>What I bring:</strong></p>
+            <ul>
+              <li>Strong CSS skills & layout mastery</li>
+              <li>Responsive-first approach</li>
+              <li>Clean commit history & Git best practices</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills reveal">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <span>HTML5</span>
+          <span>CSS3 / SCSS</span>
+          <span>Flexbox & Grid</span>
+          <span>Responsive Design</span>
+          <span>Git & GitHub</span>
+          <span>Vanilla JS</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects reveal">
+      <div class="container">
+        <h2 class="section-title">Selected Projects</h2>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <a class="thumb" href="https://github.com/code-Estif/Easy-flexbox-card" target="_blank" rel="noopener"></a>
+            <img src="active-states.jpg" alt="Flexbox">
+            <h3>Easy Flexbox Card</h3>
+            <p>Responsive flexbox-based card layout — a clean component for UI collections.</p>
+            <ul class="tech-used"><li>HTML</li><li>CSS</li></ul>
+            <div class="project-links">
+              <a href="https://github.com/code-Estif/Easy-flexbox-card" target="_blank" rel="noopener">GitHub</a>
+              <a class="btn small" href="https://github.com/code-Estif/Easy-flexbox-card" target="_blank" rel="noopener">View</a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <a class="thumb" href="https://github.com/code-Estif/responsive-product-preview-card-using-flexbox-from-frontend-mentor-" target="_blank" rel="noopener"></a>
+            <img src="active-states (1).jpg" alt="Easy-flexbox-card">
+            <h3>Product Preview (Frontend Mentor)</h3>
+            <p>Recreation of a product preview card using Flexbox — mobile-first and pixel accurate.</p>
+            <ul class="tech-used"><li>HTML</li><li>CSS</li></ul>
+            <div class="project-links">
+              <a href="https://github.com/code-Estif/responsive-product-preview-card-using-flexbox-from-frontend-mentor-" target="_blank" rel="noopener">GitHub</a>
+              <a class="btn small" href="https://github.com/code-Estif/responsive-product-preview-card-using-flexbox-from-frontend-mentor-" target="_blank" rel="noopener">View</a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <a class="thumb" href="https://github.com/code-Estif/3-column-preview-card-component-challange-from-frontend-mentor-" target="_blank" rel="noopener"></a>
+            <img src="active-states (2).jpg" alt="responsiveness">
+            <h3>3-Column Preview Card</h3>
+            <p>Three-column responsive design challenge — demonstrates layout control and responsiveness.</p>
+            <ul class="tech-used"><li>HTML</li><li>CSS</li></ul>
+            <div class="project-links">
+              <a href="https://github.com/code-Estif/3-column-preview-card-component-challange-from-frontend-mentor-" target="_blank" rel="noopener">GitHub</a>
+              <a class="btn small" href="https://github.com/code-Estif/3-column-preview-card-component-challange-from-frontend-mentor-" target="_blank" rel="noopener">View</a>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card">
+            <a class="thumb" href="https://github.com/code-Estif/responsive-order-preview-card-with-flexbox" target="_blank" rel="noopener"></a>
+            <img src="active-states (3).jpg" alt="Preview">
+            <h3>Order Preview Card</h3>
+            <p>Order/receipt style preview component built with Flexbox — clean UI & accessibility in mind.</p>
+            <ul class="tech-used"><li>HTML</li><li>CSS</li></ul>
+            <div class="project-links">
+              <a href="https://github.com/code-Estif/responsive-order-preview-card-with-flexbox" target="_blank" rel="noopener">GitHub</a>
+              <a class="btn small" href="https://github.com/code-Estif/responsive-order-preview-card-with-flexbox" target="_blank" rel="noopener">View</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> code-Estif • Frontend Developer • Ethiopia</div>
+      <div class="socials">
+        <a href="https://github.com/code-Estif" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/estif-coding-962531375" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://x.com/EstifLegen69153" target="_blank" rel="noopener">X</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
