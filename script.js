@@ -1,3 +1,10 @@
+// Google Analytics initialization
+window.dataLayer = window.dataLayer || [];
+function gtag(){ dataLayer.push(arguments); }
+gtag('js', new Date());
+
+gtag('config', 'G-3VK6WTH5E3');
+
 //menu toggle//
 const menuToggle = document.querySelector(".menu-toggle");
   const navLinks = document.querySelector(".nav-links");
@@ -15,4 +22,5 @@ const menuToggle = document.querySelector(".menu-toggle");
     root.setAttribute('data-theme', isDark ? 'light' : 'dark');
     localStorage.setItem('theme', isDark ? 'light' : 'dark');
   });
+
 
