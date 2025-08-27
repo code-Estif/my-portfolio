@@ -3,16 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfolio of Estif — Frontend Developer, Creative Designer, and Freelancer. Showcasing skills, projects, and services.">
+  <meta name="keywords" content="Estif, Frontend Developer, Web Designer, Freelancer, Portfolio, HTML, CSS, JavaScript, Web Development">
+  <meta name="author" content="Estif">
+
+  <!-- Open Graph (Social Media Preview) -->
+  <meta property="og:title" content="Estif | Portfolio">
+  <meta property="og:description" content="Explore my portfolio: Frontend development, creative design, and freelancing projects.">
+  <meta property="og:image" content="preview.jpg>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://code-estif.github.io/my-portfolio/">
   <title>Estif | Portfolio</title>
-  <link rel="shortcut icon" href="favicon.png" type="x-icon" class="favicon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Navbar -->
   <nav>
     <div class="logo-box">
-    <img src="images/logo.png" alt="logo">
-    <div class="logo">Estif.</div>
+      <img src="images/logo.png" alt="Estif Logo">
+      <div class="logo">Estif.</div>
     </div>
     <input type="checkbox" id="menu-toggle" class="menu-checkbox">
     <label for="menu-toggle" class="menu-icon">☰</label>
@@ -31,19 +42,21 @@
     <p>Frontend Developer | Creative Designer | Freelancer</p>
   </header>
 
+  <main>
+
   <!-- Skills -->
   <section id="skills">
-    <h2>My Skills</h2>
-    <div class="skills">
-      <div class="card">Landing Page</div>
-      <div class="card">Responsive Website</div>
-      <div class="card">Blog Design</div>
-      <div class="card">Portfolio Website</div>
-      <div class="card">E-commerce UI</div>
-      <div class="card">Fix Bugs</div>
-      <div class="card">Performance Boost</div>
-    </div>
-  </section>
+      <h2>My Skills</h2>
+      <div class="skills">
+        <p class="card">Landing Page</p>
+        <p class="card">Responsive Website</p>
+        <p class="card">Blog Design</p>
+        <p class="card">Portfolio Website</p>
+        <p class="card">E-commerce UI</p>
+        <p class="card">Fix Bugs</p>
+        <p class="card">Performance Boost</p>
+      </div>
+    </section>
   <!-- PROJECTS -->
     <section id="projects" class="section projects reveal">
       <div class="container">
@@ -53,10 +66,12 @@
           <!-- Project 1 -->
           <article class="project-card">
             <a class="thumb" href="https://github.com/code-Estif/News-HomePage" target="_blank" rel="noopener"></a>
-            <img src="images/NEWS.jpg" alt="Gridbox">
+            <img src="images/NEWS.jpg" alt="News HomePage project preview">
             <h3>News HomePage</h3>
             <p>Responsive Grid-based card layout.</p>
-            <ul class="tech-used"><li>HTML</li><li>CSS</li><li>JS</li></ul>
+            <ul class="tech-used">
+              <li>HTML</li><li>CSS</li><li>JS</li>
+            </ul>
             <div class="project-links">
               <a href="https://github.com/code-Estif/News-HomePage" target="_blank" rel="noopener">GitHub</a>
               <a class="btn small" href="https://code-estif.github.io/News-HomePage/" target="_blank" rel="noopener">View live</a>
@@ -66,10 +81,12 @@
           <!-- Project 2 -->
           <article class="project-card">
             <a class="thumb" href="https://github.com/code-Estif/Responsive-hudle-landing-page-with-single-introductory-section" target="_blank" rel="noopener"></a>
-            <img src="images/HUDLE.jpg" alt="Easy-flexbox-card">
+            <img src="images/HUDLE.jpg" alt="Hudle landing page preview">
             <h3>Hudle landing page</h3>
-            <p>Attractive Landing page</p>
-            <ul class="tech-used"><li>HTML</li><li>CSS</li><li>JS</li></ul>
+            <p>Attractive Landing page.</p>
+            <ul class="tech-used">
+              <li>HTML</li><li>CSS</li><li>JS</li>
+            </ul>
             <div class="project-links">
               <a href="https://github.com/code-Estif/Responsive-hudle-landing-page-with-single-introductory-section" target="_blank" rel="noopener">GitHub</a>
               <a class="btn small" href="https://code-estif.github.io/Responsive-hudle-landing-page-with-single-introductory-section/" target="_blank" rel="noopener">View live</a>
@@ -79,10 +96,12 @@
           <!-- Project 3 -->
           <article class="project-card">
             <a class="thumb" href="https://github.com/code-Estif/ping-coming-soon-page-with-js" target="_blank" rel="noopener"></a>
-            <img src="images/PING.jpg" alt="responsiveness">
+            <img src="images/PING.jpg" alt="Ping coming soon page preview">
             <h3>Ping coming soon page</h3>
             <p>A simple and clean "Coming Soon" page for Ping with an email subscription form.</p>
-            <ul class="tech-used"><li>HTML</li><li>CSS</li><li>JS</li></ul>
+            <ul class="tech-used">
+              <li>HTML</li><li>CSS</li><li>JS</li>
+            </ul>
             <div class="project-links">
               <a href="https://github.com/code-Estif/ping-coming-soon-page-with-js" target="_blank" rel="noopener">GitHub</a>
               <a class="btn small" href="https://code-estif.github.io/ping-coming-soon-page-with-js/" target="_blank" rel="noopener">View live</a>
@@ -92,10 +111,12 @@
           <!-- Project 4 -->
           <article class="project-card">
             <a class="thumb" href="https://github.com/code-Estif/SINGLE-PRICE-GRID-component-challange-from-frontend-mentor-" target="_blank" rel="noopener"></a>
-            <img src="images/SINGLE.jpg" alt="Preview">
+            <img src="images/SINGLE.jpg" alt="Single price grid component preview">
             <h3>SINGLE PRICE GRID component</h3>
             <p>A simple and clean pricing component with a focus on user experience.</p>
-            <ul class="tech-used"><li>HTML</li><li>CSS</li></ul>
+            <ul class="tech-used">
+              <li>HTML</li><li>CSS</li>
+            </ul>
             <div class="project-links">
               <a href="https://github.com/code-Estif/SINGLE-PRICE-GRID-component-challange-from-frontend-mentor-" target="_blank" rel="noopener">GitHub</a>
               <a class="btn small" href="https://code-estif.github.io/SINGLE-PRICE-GRID-component-challange-from-frontend-mentor-/" target="_blank" rel="noopener">View live</a>
@@ -104,84 +125,42 @@
         </div>
       </div>
     </section>
-
-  <!-- Pricing -->
-  <section id="pricing">
-    <h2>Pricing Plans</h2>
-    <div class="pricing">
-      <div class="price-card">
-        <h3>Basic</h3>
-    _______________________________________________
-        <p>
-          <i class="fa-regular fa-square-check"></i>
-          ✔ 1 small static website 1-3 pages
-        </p>
-        <p>
-          <i class="fa-regular fa-square-check"></i>
-          ✔Responsive design for mobile & desktop
-        </p>
-        <p>
-          <i class="fa-regular fa-square-check"></i>
-          ✔Basic HTML/CSS/JS
-        </p>
-        <p>
-          <i class="fa-regular fa-square-check"></i>
-          ✔ Delivery in 1-4 days
-        </p>
+    /*pricing*/
+    <section id="pricing">
+      <h2>Pricing Plans</h2>
+      <div class="pricing">
+        <article class="price-card">
+          <h3>Basic</h3>
+          <ul>
+            <li>✔ 1 small static website 1–3 pages</li>
+            <li>✔ Responsive design for mobile & desktop</li>
+            <li>✔ Basic HTML/CSS/JS</li>
+            <li>✔ Delivery in 1–4 days</li>
+          </ul>
+        </article>
+        <article class="price-card">
+          <h3>Standard</h3>
+          <ul>
+            <li>✔ Up to 5 pages</li>
+            <li>✔ Responsive design + animations</li>
+            <li>✔ Basic SEO setup</li>
+            <li>✔ Delivery in 3–7 days</li>
+            <li>✔ 2 revisions</li>
+          </ul>
+        </article>
+        <article class="price-card">
+          <h3>Premium</h3>
+          <ul>
+            <li>✔ Up to 10 pages</li>
+            <li>✔ Advanced animation & effects</li>
+            <li>✔ Custom features (sliders, galleries...)</li>
+            <li>✔ Delivery in 5–10 days</li>
+            <li>✔ SEO optimization + performance boost</li>
+            <li>✔ Unlimited revisions during project</li>
+          </ul>
+        </article>
       </div>
-      <div class="price-card">
-        <h3>Standard</h3>
-    _______________________________________________
-        <p><i class="fa-regular fa-square-check"></i>
-          ✔ Up to 5 pages
-        </p>
-        <p>
-          <i class="fa-regular fa-square-check"></i>
-          ✔ Responsive design + animations
-        </p>
-        <p>
-          <i class="fa-regular fa-square-check"></i>
-          ✔ Basic SEO setup
-        </p>
-        <p>
-          <i class="fa-regular fa-square-check"></i>
-          ✔ Delivery in 3-7 days
-        </p>
-        <p>
-          <i class="fa-regular fa-square-check"></i>
-          ✔ 2 revisions
-        </p>        
-      </div>
-      <div class="price-card">
-        <h3>Premium</h3>
-    _______________________________________________    
-        <p>
-          <i class="fa-regular fa-square-check"></i>
-          ✔ Up to 10 pages
-        </p>
-        <p>
-          <i class="fa-regular fa-square-check"></i>
-          ✔ Advanced animation & effects
-        </p>
-        <p>
-          <i class="fa-regular fa-square-check"></i>
-          ✔ custom features sliders, galleries ...
-        </p>
-        <p>
-          <i class="fa-regular fa-square-check"></i>
-          ✔ Delivery in 5-10 days
-        </p>
-        <p>
-          <i class="fa-regular fa-square-check"></i>
-          ✔ SEO optimization + performance boost
-        </p>
-        <p>
-          <i class="fa-regular fa-square-check"></i>
-          ✔ Unlimited revisions during project
-        </p>
-      </div>
-    </div>
-  </section>
+    </section>
   
   <!-- Footer -->
    <footer id="contact">
@@ -201,3 +180,4 @@
   </footer>
 </body>
 </html>
+
