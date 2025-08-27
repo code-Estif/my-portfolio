@@ -313,54 +313,7 @@
 .project-links .btn.small:hover {
   background: #1e3a8a;
 }
-
-
-    /* Pricing */
-    #pricing {
-      min-height: 110vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    .pricing {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2rem;
-      text-align: center;
-    }
-
-    .price-card {
-      background: var(--card-bg);
-      padding: 2rem;
-      border-radius: 12px;
-      transition: all 0.3s ease;
-      height: 600px;
-      text-align: left;
-      margin-bottom: 2rem;
-    }
-
-    .price-card:hover {
-      transform: scale(1.01);
-      background: #334155;
-      border: 1px solid white;
-    }
-
-    .price-card h3 {
-      color: var(--primary-color);
-      font-size: 1.7rem;
-      text-align: center;
-    }
-
-    .price-card p {
-      margin-top: 3rem;
-    }
-
-    .price {
-      font-size: 2.2rem;
-      margin: 1rem 0;
-      color: var(--primary-color);
-    }
+/* footer */
     footer {
       background: #111827; /* dark navy */
       text-align: center;
@@ -395,4 +348,5 @@
       text-align: center;
       gap: 1rem;
     }
+
   }
